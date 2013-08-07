@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	$("#navigation").localScroll();
+	$("#header").localScroll();
 });
