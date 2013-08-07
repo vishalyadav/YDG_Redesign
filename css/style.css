@@ -49,6 +49,7 @@ table {
 	top: 0;
 	background: #000000;
 	font-family: 'Roboto Slab', serif;
+	z-index: 50;
 	/*border-bottom: 2px #000 solid;*/
 }
 
@@ -67,8 +68,10 @@ table {
 }
 
 section {
-	padding-top: 90px;
+	padding-top: 80px;
 	min-height: 500px;
+	z-index: 5;
+	background: #aaa;
 }
 
 .nav {
@@ -84,6 +87,59 @@ a {
 #home {
 	background: url(../1.jpg) no-repeat fixed;
 	background-size: 100% auto;
+	text-align: center;
+	height: 800px;
+]}
+
+.fade {
+	position: absolute;
+	top: 80px;
+	height: 800px;
+	width: 100%;
+	background-color: #0000FF;
+	opacity: .3;
+	z-index: 6;
 }
 
+.section_content {
+	position: relative;
+	z-index: 7;
+	top: 30px;
+}
+
+.title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 80px;
+	color: #FFFFFF;
+}
+
+#motivate {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	position: relative;
+	top: 80px;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+#circle_nav {
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.circle {
+	position: relative;
+	top: 130px;
+	margin-left: 30px;
+	margin-right: 30px;
+	float: left;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: #000000;
+    z-index: 100;
+}
 
