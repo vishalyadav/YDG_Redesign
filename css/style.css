@@ -1,0 +1,12 @@
+#sticky_menu {
+	float: left;
+	width: 200px;
+	position: fixed;
+	left: 25px;
+	margin-top: 20px;
+}
+
+#main_content {
+	float: right;
+	width: 700px;
+}
