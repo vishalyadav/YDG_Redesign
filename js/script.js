@@ -63,7 +63,7 @@ $(document).keydown(function (e) {
     }
 	else if(e.keyCode == 39) {
 		e.preventDefault();
-		$('a.nivo-prevNav').click();
+		$('a.nivo-nextNav').click();
 	}
 });
 
