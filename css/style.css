@@ -335,3 +335,8 @@ ul, li {
 	z-index: 1;
 }
 
+.slider-wrapper { 
+	width: 80%; 
+	margin: 100px auto;
+}
+

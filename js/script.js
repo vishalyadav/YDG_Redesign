@@ -51,3 +51,20 @@ $(document).ready(function(){
 		}
 	});
 });
+
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+
+$(document).keydown(function (e) {
+	if(e.keyCode == 37) {
+		e.preventDefault();
+		$('a.nivo-prevNav').click();
+    }
+	else if(e.keyCode == 39) {
+		e.preventDefault();
+		$('a.nivo-prevNav').click();
+	}
+});
+
+

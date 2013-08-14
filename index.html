@@ -6,10 +6,12 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+	<link href="css/nivo-slider.css" rel="stylesheet" type="text/css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
 	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
 	<script type="text/javascript" src="js/jquery.inview.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
 	<script src="js/script.js"></script>
 </head>
 <body>
@@ -133,6 +135,17 @@
 					<div class="subtitle">
 						Our Work
 					</div>
+					<div class="slider-wrapper theme-default">
+			            <div id="slider" class="nivoSlider">
+			                <img src="1.jpg" data-thumb="1.jpg" alt="" />
+			                <img src="2.jpg" data-thumb="2.jpg" alt="" title="This is an example of a caption" />
+			                <img src="3.jpg" data-thumb="3.jpg" alt="" data-transition="slideInLeft" />
+			                <img src="4.jpg" data-thumb="4.jpg" alt="" title="#htmlcaption" />
+			            </div>
+			            <div id="htmlcaption" class="nivo-html-caption">
+			                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+			            </div>
+        			</div>
 				</div>
 			</section>
 
