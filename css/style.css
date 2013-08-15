@@ -125,6 +125,13 @@ a {
 	height: 800px;
 }
 
+#testimonials {
+	background: url(../5.jpg) no-repeat fixed;
+	background-size: 100% auto;
+	background-position: 50% 70px;
+	height: 800px;	
+}
+
 .fade {
 	position: absolute;
 	top: 80px;
@@ -152,6 +159,13 @@ a {
 	background-color: #A544BE;
 	height: 880px;
 	top: 2640px;
+	opacity: .5;
+}
+
+#fade_testimonials {
+	background-color: #258E2D;
+	height: 880px;
+	top: 3520px;
 	opacity: .5;
 }
 
