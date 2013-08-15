@@ -50,11 +50,12 @@ $(document).ready(function(){
 			}
 		}
 	});
+	
 });
 
-$(window).load(function() {
-    $('#slider').nivoSlider();
-});
+//$(window).load(function() {
+//    $('#slider').nivoSlider();
+//});
 
 $(document).keydown(function (e) {
 	if(e.keyCode == 37) {
