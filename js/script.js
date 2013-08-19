@@ -42,7 +42,7 @@ $(document).ready(function(){
 		}
 		if($("#testimonials").hasClass("inview")) {
 			if($(window).width() > 840) {
-				$("#testimonials").css({"background-position":"50% " + (900 - (position * 0.25)) + "px" });
+				$("#testimonials").css({"background-position":"50% " + (940 - (position * 0.25)) + "px" });
 			}
 		}
 	});
@@ -60,7 +60,26 @@ $(document).ready(function(){
 			}
 		}
 	});
-	
+	//if($("#testimonials").hasClass("inview")) {
+		$(".names").click(function(){
+			$(".names").css({"background-color": "transparent"});
+			$(this).css({"background-color": "#E49F28"});
+			$(".words").hide();
+		});
+		$("#rakesh").click(function(){
+			$("#rakesh_words").fadeIn();
+		});
+		$("#munira").click(function(){
+			$("#munira_words").fadeIn();
+		});
+		$("#nick").click(function(){
+			$("#nick_words").fadeIn();
+		});
+		$("#anand").click(function(){
+			$("#anand_words").fadeIn();
+		});
+		
+	//}
 });
 
 //$(window).load(function() {

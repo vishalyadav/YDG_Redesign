@@ -86,7 +86,7 @@ section {
 }
 
 .nav {
-	padding: 40px 5% 0 5%;
+	padding: 40px 3% 0 3%;
 	display: inline-block;
 }
 
@@ -129,7 +129,14 @@ a {
 	background: url(../5.jpg) no-repeat fixed;
 	background-size: 100% auto;
 	background-position: 50% 70px;
-	height: 800px;	
+	height: 1200px;	
+}
+
+#community {
+	background: url(../1.jpg) no-repeat fixed;
+	background-size: 100% auto;
+	background-position: 50% 70px;
+	height: 800px;
 }
 
 .fade {
@@ -164,7 +171,7 @@ a {
 
 #fade_testimonials {
 	background-color: #258E2D;
-	height: 880px;
+	height: 1280px;
 	top: 3520px;
 	opacity: .5;
 }
@@ -209,22 +216,22 @@ a {
 }
 
 #circle_nav {
-	width: 840px;
+	width: 900px;
 	height: 300px;
 	margin: 0 auto;
 }
 
 .circle {
 	position: relative;
-	top: 150px;
-	margin-left: 30px;
+	top: 180px;
+	margin-left: 20px;
 	margin-right: 30px;
 	float: left;
 	-webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background: #FF870E;
     z-index: 100;
     color: #FFFFFF;
@@ -232,7 +239,7 @@ a {
 
 .circle_text {
 	position: relative;
-	top: 65px;
+	top: 53px;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -352,5 +359,72 @@ ul, li {
 .slider-wrapper { 
 	width: 80%; 
 	margin: 100px auto;
+}
+
+#clients {
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+	font-size: 40px;
+	position: relative;
+	text-align: center;
+	top: 20px;
+}
+
+#testimonials_content {
+	height: 850px;
+	background-color: #000000;
+	opacity: .4;
+	position: relative;
+	width: 640px;
+	top: 40px;
+	float: right;
+}
+
+#name_select {
+	height: 850px;
+	background-color: #000000;
+	opacity: .2;
+	position: relative;
+	width: 200px;
+	float: left;
+	top: 40px;
+	z-index: 1;
+}
+
+#name_list {
+	z-index: 5;
+	color: #FFFFFF;
+	position: absolute;
+	top: 160px;
+	left: -30px;
+	font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.names {
+	list-style-type: none;	
+	width: 170px;
+	/*background-color: #E49F28;*/
+	padding-left: 30px;
+}
+
+.names:hover {
+	color: #EBEE57;
+	cursor: pointer;
+}
+
+.words {
+	position: absolute;
+	color: #FFFFFF;
+	font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+	font-size: 18px;
+	width: 580px;
+	margin-left: 40px;
+	margin-right: 40px;
+	display: none;
+	top: 160px;
+	left: 190px;
+	line-height: 24px;
 }
 
