@@ -10,7 +10,7 @@ $(document).ready(function(){
 			}
 	}
 
-	$("#home, #about, #services, #our_work, #testimonials").bind("inview", function (event, visible) {
+	$("#home, #about, #services, #our_work, #testimonials, #community").bind("inview", function (event, visible) {
 			if (visible == true) {
 				$(this).addClass("inview");
 			} else {
@@ -37,12 +37,17 @@ $(document).ready(function(){
 		}
 		if($("#our_work").hasClass("inview")) {
 			if($(window).width() > 840) {
-				$("#our_work").css({"background-position":"50% " + (580 - (position * 0.25)) + "px" });
+				$("#our_work").css({"background-position":"50% " + (700 - (position * 0.25)) + "px" });
 			}
 		}
 		if($("#testimonials").hasClass("inview")) {
 			if($(window).width() > 840) {
 				$("#testimonials").css({"background-position":"50% " + (940 - (position * 0.25)) + "px" });
+			}
+		}
+		if($("#community").hasClass("inview")) {
+			if($(window).width() > 840) {
+				$("#community").css({"background-position":"50% " + (1180 - (position * 0.25)) + "px" });
 			}
 		}
 	});
