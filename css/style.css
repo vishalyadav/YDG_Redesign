@@ -112,7 +112,7 @@ a {
 }
 
 #services {
-	background: url(../3.jpg) no-repeat fixed;
+	background: url(../3_smaller.jpg) no-repeat fixed;
 	background-size: 100% auto;
 	background-position: 50% 70px;
 	height: 800px;
@@ -150,10 +150,10 @@ a {
 }
 
 #fade_about {
-	background-color: #FCFF18;
+	background-color: #094E31;
 	height: 880px;
 	top: 880px;
-	opacity: .6;
+	opacity: .5;
 }
 
 #fade_services {
