@@ -54,15 +54,18 @@ $(document).ready(function(){
 
 	$(window).resize(function(){
 		if($(window).width() <= 840) {
-			if($("#home").hasClass("inview")) {
-				$("#home").css({"background-position":"0 " + 70 + "px" });
-				$("#home").css({"background-size": "840px auto"});
-			}
+			$("#home, #about, #services, #our_work, #testimonials, #community").css({"background-position":"0 " + 70 + "px" });
+			$("#home, #about, #services, #our_work, #testimonials, #community").css({"background-size": "840px auto"});
+			
 		} else {
-			if($("#home").hasClass("inview")) {
-				$("#home").css({"background-position":"50% " + (70 - ($(window).scrollTop() * 0.25)) + "px" });
-				$("#home").css({"background-size": "100% auto"});
-			}
+			var position = $(window).scrollTop();
+			$("#home").css({"background-position":"50% " + (70 - ($(window).scrollTop() * 0.25)) + "px" });
+			$("#home, #about, #services, #our_work, #testimonials, #community").css({"background-size": "100% auto"});
+			$("#about").css({"background-position":"50% " + (240 - (position * 0.25)) + "px" });
+			$("#services").css({"background-position":"50% " + (410 - (position * 0.25)) + "px" });
+			$("#our_work").css({"background-position":"50% " + (700 - (position * 0.25)) + "px" });
+			$("#testimonials").css({"background-position":"50% " + (940 - (position * 0.25)) + "px" });
+			$("#community").css({"background-position":"50% " + (1180 - (position * 0.25)) + "px" });
 		}
 	});
 	//if($("#testimonials").hasClass("inview")) {
